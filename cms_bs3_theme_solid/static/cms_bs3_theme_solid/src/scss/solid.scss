@@ -303,9 +303,9 @@ a:focus {
 }
 
 /* Testimonials Wrap */
-#twrap {
+#middle {
     background: #4a575c;
-    margin-top: 0px;
+    margin-top: 0;
     padding-top:60px;
     background-attachment: relative;
     background-position: center center;
@@ -321,18 +321,22 @@ a:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
 
-#twrap i {
-    font-size: 50px;
-    color: white;
-    margin-bottom: 25px;
-}
+    i {
+        font-size: 50px;
+        color: white;
+        margin-bottom: 25px;
+    }
 
-#twrap p {
-    color: white;
-    font-size: 15px;
-    line-height: 30px;
+    p {
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #f7f7f7;
+    }
 }
 
 /* clients logo */
@@ -488,4 +492,20 @@ csmall2 {
 }
 .font-size-400 {
     font-size: 400%;
+}
+
+.code-block {
+    border: 0;
+    position: relative;
+    color: #b3e115;
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    line-height: 1.2;
+    background: #35363C none repeat scroll 0 0;
+    padding: 14px;
+
+    code {
+        font-size: 12px;
+        color: #b3e115;
+        background: transparent;
+    }
 }
