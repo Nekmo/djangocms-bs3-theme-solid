@@ -1,5 +1,11 @@
-@import "../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+$icon-font-path: "../libs/bootstrap-sass/assets/fonts/bootstrap/";
+$fa-font-path: "../libs/font-awesome/fonts/";
 
+$brand-primary: #00B3FE;
+
+
+@import "../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../libs/font-awesome/scss/font-awesome";
 /*	################################################################
 
 	Author: Carlos Alvarez
@@ -298,10 +304,9 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
+    background: #4a575c;
     margin-top: 0px;
     padding-top:60px;
-    text-align:center;
     background-attachment: relative;
     background-position: center center;
     min-height: 450px;
@@ -471,3 +476,16 @@ csmall2 {
 
 /* Custom */
 @import "common";
+
+.font-size-150 {
+    font-size: 150%;
+}
+.font-size-200 {
+    font-size: 200%;
+}
+.font-size-300 {
+    font-size: 300%;
+}
+.font-size-400 {
+    font-size: 400%;
+}
