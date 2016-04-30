@@ -12304,13 +12304,13 @@ button.close {
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-/* line 27, ../scss/solid.scss */
+/* line 34, ../scss/solid.scss */
 * {
   margin: 0;
   padding: 0px;
 }
 
-/* line 32, ../scss/solid.scss */
+/* line 39, ../scss/solid.scss */
 body {
   background: #ffffff;
   margin: 0;
@@ -12320,13 +12320,13 @@ body {
   font-weight: 400;
 }
 
-/* line 41, ../scss/solid.scss */
+/* line 48, ../scss/solid.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
-/* line 46, ../scss/solid.scss */
+/* line 53, ../scss/solid.scss */
 p {
   padding: 0;
   margin-bottom: 12px;
@@ -12338,13 +12338,13 @@ p {
   margin-top: 10px;
 }
 
-/* line 57, ../scss/solid.scss */
+/* line 64, ../scss/solid.scss */
 img {
   height: auto;
   max-width: 100%;
 }
 
-/* line 62, ../scss/solid.scss */
+/* line 69, ../scss/solid.scss */
 a {
   padding: 0;
   margin: 0;
@@ -12356,28 +12356,28 @@ a {
   transition: background-color .4s linear, color .4s linear;
 }
 
-/* line 72, ../scss/solid.scss */
+/* line 79, ../scss/solid.scss */
 a:hover,
 a:focus {
   text-decoration: none;
   color: #01b2fe;
 }
 
-/* line 78, ../scss/solid.scss */
+/* line 85, ../scss/solid.scss */
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
   background: #2B2E31;
 }
 
-/* line 83, ../scss/solid.scss */
+/* line 90, ../scss/solid.scss */
 ::selection {
   color: #fff;
   text-shadow: none;
   background: #2B2E31;
 }
 
-/* line 89, ../scss/solid.scss */
+/* line 96, ../scss/solid.scss */
 .centered {
   text-align: center;
 }
@@ -12385,25 +12385,25 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-/* line 96, ../scss/solid.scss */
+/* line 103, ../scss/solid.scss */
 .navbar {
   min-height: 70px;
   padding-top: 10px;
   margin-bottom: 0px;
 }
 
-/* line 102, ../scss/solid.scss */
+/* line 109, ../scss/solid.scss */
 .navbar-brand {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
 
-/* line 107, ../scss/solid.scss */
+/* line 114, ../scss/solid.scss */
 .navbar-header .navbar-brand {
   color: white;
 }
 
-/* line 111, ../scss/solid.scss */
+/* line 118, ../scss/solid.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-weight: 700;
@@ -12411,36 +12411,36 @@ a:focus {
   text-transform: uppercase;
 }
 
-/* line 118, ../scss/solid.scss */
+/* line 125, ../scss/solid.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: #00b3fe;
 }
 
-/* line 122, ../scss/solid.scss */
+/* line 129, ../scss/solid.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #00b3fe;
   background-color: transparent;
 }
 
-/* line 127, ../scss/solid.scss */
+/* line 134, ../scss/solid.scss */
 .navbar-default {
   background-color: #384452;
   border-color: transparent;
 }
 
-/* line 132, ../scss/solid.scss */
+/* line 139, ../scss/solid.scss */
 .dropdown-menu {
   background: #384452;
 }
 
-/* line 136, ../scss/solid.scss */
+/* line 143, ../scss/solid.scss */
 .dropdown-menu > li > a {
   color: white;
   font-weight: 700;
   font-size: 12px;
 }
 
-/* line 142, ../scss/solid.scss */
+/* line 149, ../scss/solid.scss */
 .btn {
   color: #fff;
   background-color: #384452;
@@ -12453,7 +12453,7 @@ a:focus {
   transition: background-color .4s linear, color .4s linear;
 }
 
-/* line 154, ../scss/solid.scss */
+/* line 161, ../scss/solid.scss */
 .btn:hover,
 .btn:focus,
 .btn:active,
@@ -12464,7 +12464,7 @@ a:focus {
   border-color: #00b3fe;
 }
 
-/* line 164, ../scss/solid.scss */
+/* line 171, ../scss/solid.scss */
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus {
@@ -12473,7 +12473,7 @@ a:focus {
   border-color: #ffffff;
 }
 
-/* line 171, ../scss/solid.scss */
+/* line 178, ../scss/solid.scss */
 .dmbutton {
   background: transparent;
   border: 1px solid #ffffff;
@@ -12500,28 +12500,28 @@ a:focus {
   font-weight: normal !important;
 }
 
-/* line 197, ../scss/solid.scss */
+/* line 204, ../scss/solid.scss */
 .mtb {
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
-/* line 202, ../scss/solid.scss */
+/* line 209, ../scss/solid.scss */
 .mb {
   margin-bottom: 60px;
 }
 
-/* line 206, ../scss/solid.scss */
+/* line 213, ../scss/solid.scss */
 .mt {
   margin-top: 60px;
 }
 
-/* line 210, ../scss/solid.scss */
+/* line 217, ../scss/solid.scss */
 .hline {
   border-bottom: 2px solid #384452;
 }
 
-/* line 214, ../scss/solid.scss */
+/* line 221, ../scss/solid.scss */
 .hline-w {
   border-bottom: 2px solid #ffffff;
   margin-bottom: 25px;
@@ -12530,7 +12530,7 @@ a:focus {
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
-/* line 222, ../scss/solid.scss */
+/* line 229, ../scss/solid.scss */
 #headerwrap {
   background-color: #00b3fe;
   min-height: 550px;
@@ -12540,31 +12540,31 @@ a:focus {
   border-bottom: 2px solid #4a575c;
 }
 
-/* line 231, ../scss/solid.scss */
+/* line 238, ../scss/solid.scss */
 #headerwrap h3, h5 {
   color: white;
   font-weight: 400;
 }
 
-/* line 236, ../scss/solid.scss */
+/* line 243, ../scss/solid.scss */
 #headerwrap h1 {
   color: white;
   margin-bottom: 25px;
 }
 
-/* line 241, ../scss/solid.scss */
+/* line 248, ../scss/solid.scss */
 #headerwrap .img-responsive {
   margin: 0 auto;
 }
 
 /* Services Wrap */
-/* line 246, ../scss/solid.scss */
+/* line 253, ../scss/solid.scss */
 #service {
   margin-top: 100px;
   margin-bottom: 80px;
 }
 
-/* line 251, ../scss/solid.scss */
+/* line 258, ../scss/solid.scss */
 #service i {
   color: #00b3fe;
   font-size: 60px;
@@ -12572,7 +12572,7 @@ a:focus {
 }
 
 /* Portfolio Wrap */
-/* line 258, ../scss/solid.scss */
+/* line 265, ../scss/solid.scss */
 #portfoliowrap {
   padding-top: 60px;
   margin-bottom: 60px;
@@ -12580,37 +12580,37 @@ a:focus {
   text-align: center;
 }
 
-/* line 265, ../scss/solid.scss */
+/* line 272, ../scss/solid.scss */
 #portfoliowrap h3 {
   margin-bottom: 25px;
 }
 
-/* line 269, ../scss/solid.scss */
+/* line 276, ../scss/solid.scss */
 .portfolio {
   padding: 0 !important;
   margin: 0 !important;
   display: block;
 }
 
-/* line 276, ../scss/solid.scss */
+/* line 283, ../scss/solid.scss */
 .portfolio-item .title:before {
   border-radius: 0;
   display: none;
 }
 
-/* line 277, ../scss/solid.scss */
+/* line 284, ../scss/solid.scss */
 .portfolio-item p {
   margin: 0px 0 30px;
 }
 
-/* line 278, ../scss/solid.scss */
+/* line 285, ../scss/solid.scss */
 .portfolio-item h3 {
   margin: -10px 0 10px;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-/* line 281, ../scss/solid.scss */
+/* line 288, ../scss/solid.scss */
 .tpl6 h3 {
   color: #fff;
   margin: 0;
@@ -12619,14 +12619,14 @@ a:focus {
   text-transform: uppercase;
 }
 
-/* line 289, ../scss/solid.scss */
+/* line 296, ../scss/solid.scss */
 .tpl6 .dmbutton {
   display: inline-block;
   margin: 30px 5px 20px 5px;
   font-size: 13px;
 }
 
-/* line 296, ../scss/solid.scss */
+/* line 303, ../scss/solid.scss */
 .tpl6 .bg {
   height: 100%;
   width: 100%;
@@ -12636,12 +12636,11 @@ a:focus {
 }
 
 /* Testimonials Wrap */
-/* line 306, ../scss/solid.scss */
+/* line 313, ../scss/solid.scss */
 #middle {
   background: #4a575c;
   margin-top: 0;
   padding-top: 60px;
-  background-attachment: relative;
   background-position: center center;
   min-height: 450px;
   width: 100%;
@@ -12650,25 +12649,25 @@ a:focus {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 325, ../scss/solid.scss */
+/* line 332, ../scss/solid.scss */
 #middle i {
   font-size: 50px;
   color: white;
   margin-bottom: 25px;
 }
-/* line 331, ../scss/solid.scss */
+/* line 338, ../scss/solid.scss */
 #middle p {
   color: white;
   font-size: 15px;
   line-height: 30px;
 }
-/* line 337, ../scss/solid.scss */
+/* line 344, ../scss/solid.scss */
 #middle h1, #middle h2, #middle h3, #middle h4, #middle h5, #middle h6 {
   color: #f7f7f7;
 }
 
 /* clients logo */
-/* line 343, ../scss/solid.scss */
+/* line 350, ../scss/solid.scss */
 #cwrap {
   background: #f7f7f7;
   margin-top: 0px;
@@ -12676,37 +12675,37 @@ a:focus {
   padding-bottom: 100px;
 }
 
-/* line 350, ../scss/solid.scss */
+/* line 357, ../scss/solid.scss */
 #cwrap h3 {
   margin-bottom: 60px;
 }
 
 /* Footer */
-/* line 355, ../scss/solid.scss */
+/* line 362, ../scss/solid.scss */
 #footerwrap {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #384452;
 }
 
-/* line 361, ../scss/solid.scss */
+/* line 368, ../scss/solid.scss */
 #footerwrap p {
   color: #bfc9d3;
 }
 
-/* line 365, ../scss/solid.scss */
+/* line 372, ../scss/solid.scss */
 #footerwrap h4 {
   color: white;
 }
 
-/* line 369, ../scss/solid.scss */
+/* line 376, ../scss/solid.scss */
 #footerwrap i {
   font-size: 30px;
   color: #bfc9d3;
   padding-right: 25px;
 }
 
-/* line 375, ../scss/solid.scss */
+/* line 382, ../scss/solid.scss */
 #footerwrap i:hover {
   color: #00b3fe;
 }
@@ -12715,7 +12714,7 @@ a:focus {
 	PAGE CONFIGURATIONS
 ################################################################# */
 /* General Tweaks */
-/* line 384, ../scss/solid.scss */
+/* line 391, ../scss/solid.scss */
 #blue {
   background: #00b3fe;
   margin-top: 60px;
@@ -12724,44 +12723,44 @@ a:focus {
   padding-bottom: 25px;
 }
 
-/* line 392, ../scss/solid.scss */
+/* line 399, ../scss/solid.scss */
 #blue h3 {
   color: white;
   margin-left: 15px;
 }
 
-/* line 397, ../scss/solid.scss */
+/* line 404, ../scss/solid.scss */
 .ctitle {
   color: #00b3fe;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
-/* line 403, ../scss/solid.scss */
+/* line 410, ../scss/solid.scss */
 csmall {
   font-size: 12px;
   color: #b3b3b3;
 }
 
-/* line 407, ../scss/solid.scss */
+/* line 414, ../scss/solid.scss */
 csmall2 {
   font-size: 12px;
   color: #f39c12;
 }
 
-/* line 412, ../scss/solid.scss */
+/* line 419, ../scss/solid.scss */
 .spacing {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-/* line 417, ../scss/solid.scss */
+/* line 424, ../scss/solid.scss */
 .badge-theme {
   background: #00b3fe;
 }
 
 /* Contact Page */
-/* line 422, ../scss/solid.scss */
+/* line 429, ../scss/solid.scss */
 #contactwrap {
   background: url(../img/contact.jpg) no-repeat center top;
   margin-top: -60px;
@@ -12778,82 +12777,82 @@ csmall2 {
 }
 
 /* Blog Page */
-/* line 444, ../scss/solid.scss */
+/* line 451, ../scss/solid.scss */
 .popular-posts {
   margin: 0px;
   padding-left: 0px;
 }
 
-/* line 449, ../scss/solid.scss */
+/* line 456, ../scss/solid.scss */
 .popular-posts li {
   list-style: none;
   margin-bottom: 20px;
   min-height: 70px;
 }
 
-/* line 454, ../scss/solid.scss */
+/* line 461, ../scss/solid.scss */
 .popular-posts li a,
 .popular-posts li a:hover {
   color: #2f2f2f;
   text-decoration: none;
 }
 
-/* line 460, ../scss/solid.scss */
+/* line 467, ../scss/solid.scss */
 .popular-posts li img {
   float: left;
   margin-right: 20px;
 }
 
-/* line 465, ../scss/solid.scss */
+/* line 472, ../scss/solid.scss */
 .popular-posts li em {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
   color: #b3b3b3;
 }
 
-/* line 471, ../scss/solid.scss */
+/* line 478, ../scss/solid.scss */
 .popular-posts p {
   line-height: normal;
   margin-bottom: auto;
 }
 
-/* line 476, ../scss/solid.scss */
+/* line 483, ../scss/solid.scss */
 .share i {
   padding-right: 15px;
   font-size: 18px;
 }
 
 /* Custom */
-/* line 3, ../scss/_common.scss */
+/* line 5, ../scss/_common.scss */
 html.fluid-fixed-top-default body, html.fluid-fixed-top body, html.fluid-fixed-top-inverse body {
   margin-top: 70px;
 }
-/* line 7, ../scss/_common.scss */
+/* line 9, ../scss/_common.scss */
 html.fluid-fixed-top-default.cms-toolbar-expanded [role=navigation], html.fluid-fixed-top.cms-toolbar-expanded [role=navigation], html.fluid-fixed-top-inverse.cms-toolbar-expanded [role=navigation] {
   margin-top: 45px;
 }
 
-/* line 484, ../scss/solid.scss */
+/* line 491, ../scss/solid.scss */
 .font-size-150 {
   font-size: 150%;
 }
 
-/* line 487, ../scss/solid.scss */
+/* line 494, ../scss/solid.scss */
 .font-size-200 {
   font-size: 200%;
 }
 
-/* line 490, ../scss/solid.scss */
+/* line 497, ../scss/solid.scss */
 .font-size-300 {
   font-size: 300%;
 }
 
-/* line 493, ../scss/solid.scss */
+/* line 500, ../scss/solid.scss */
 .font-size-400 {
   font-size: 400%;
 }
 
-/* line 497, ../scss/solid.scss */
+/* line 504, ../scss/solid.scss */
 .code-block {
   border: 0;
   position: relative;
@@ -12863,7 +12862,7 @@ html.fluid-fixed-top-default.cms-toolbar-expanded [role=navigation], html.fluid-
   background: #35363C none repeat scroll 0 0;
   padding: 14px;
 }
-/* line 506, ../scss/solid.scss */
+/* line 513, ../scss/solid.scss */
 .code-block code {
   font-size: 12px;
   color: #b3e115;
