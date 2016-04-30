@@ -12832,6 +12832,196 @@ html.fluid-fixed-top-default.cms-toolbar-expanded [role=navigation], html.fluid-
   margin-top: 45px;
 }
 
+/* line 17, ../scss/_common.scss */
+.top-buffer-5 {
+  margin-top: 5px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-5 {
+  margin-bottom: 5px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-10 {
+  margin-top: 10px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-10 {
+  margin-bottom: 10px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-15 {
+  margin-top: 15px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-15 {
+  margin-bottom: 15px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-20 {
+  margin-top: 20px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-20 {
+  margin-bottom: 20px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-25 {
+  margin-top: 25px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-25 {
+  margin-bottom: 25px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-30 {
+  margin-top: 30px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-30 {
+  margin-bottom: 30px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-35 {
+  margin-top: 35px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-35 {
+  margin-bottom: 35px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-40 {
+  margin-top: 40px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-40 {
+  margin-bottom: 40px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-45 {
+  margin-top: 45px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-45 {
+  margin-bottom: 45px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-50 {
+  margin-top: 50px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-50 {
+  margin-bottom: 50px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-55 {
+  margin-top: 55px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-55 {
+  margin-bottom: 55px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-60 {
+  margin-top: 60px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-60 {
+  margin-bottom: 60px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-65 {
+  margin-top: 65px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-65 {
+  margin-bottom: 65px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-70 {
+  margin-top: 70px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-70 {
+  margin-bottom: 70px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-75 {
+  margin-top: 75px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-75 {
+  margin-bottom: 75px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-80 {
+  margin-top: 80px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-80 {
+  margin-bottom: 80px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-85 {
+  margin-top: 85px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-85 {
+  margin-bottom: 85px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-90 {
+  margin-top: 90px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-90 {
+  margin-bottom: 90px;
+}
+
+/* line 17, ../scss/_common.scss */
+.top-buffer-95 {
+  margin-top: 95px;
+}
+
+/* line 21, ../scss/_common.scss */
+.bottom-buffer-95 {
+  margin-bottom: 95px;
+}
+
 /* line 491, ../scss/solid.scss */
 .font-size-150 {
   font-size: 150%;
@@ -12863,8 +13053,9 @@ html.fluid-fixed-top-default.cms-toolbar-expanded [role=navigation], html.fluid-
   padding: 14px;
 }
 /* line 513, ../scss/solid.scss */
-.code-block code {
+.code-block code, .code-block pre {
   font-size: 12px;
   color: #b3e115;
   background: transparent;
+  border: 0;
 }

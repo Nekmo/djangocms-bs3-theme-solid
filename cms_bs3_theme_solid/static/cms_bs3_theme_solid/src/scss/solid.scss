@@ -510,9 +510,10 @@ csmall2 {
     background: #35363C none repeat scroll 0 0;
     padding: 14px;
 
-    code {
+    code, pre {
         font-size: 12px;
         color: #b3e115;
         background: transparent;
+        border: 0;
     }
 }
