@@ -1,0 +1,24 @@
+{
+  "name": "djangocms-bs3-theme-solid",
+  "homepage": "https://github.com/Nekmo/djangocms-bs3-theme-solid",
+  "authors": [
+    "Nekmo <contacto@nekmo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "cms_bs3_theme_solid/static/cms_bs3_theme_solid/src/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.1"
+  }
+}
